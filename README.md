@@ -7,8 +7,10 @@
 
 * nodemon
 * express
+* express-validator
 * morgan
 * dotenv
 * mongoose
+* body-parser
 
 
