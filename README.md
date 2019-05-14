@@ -6,6 +6,7 @@
 
 #### Tecnologias utilizadas no desenvolvimento (até o momento)
 
+
 * nodemon
 * express
 * express-validator
@@ -14,4 +15,6 @@
 * mongoose
 * body-parser
 
+* Database - MongoDB.Atlas
+* Testes - Postman
 
