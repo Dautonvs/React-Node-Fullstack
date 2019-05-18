@@ -12,5 +12,4 @@ router.post("/post", requireSignin, createPostValidator, createPost);
 //any route containing :userId, our app will first execute userById()
 router.param("userId", userById);
 
-
 module.exports = router;
