@@ -1,3 +1,5 @@
+# Ignored this files
+
 /node_modules
 .env
 package-lock.json
