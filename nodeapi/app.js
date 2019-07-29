@@ -27,7 +27,7 @@ const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/user');
 
 //apiDocs
-app.get("/", (req ,res) => {
+app.get("/", (req, res) => {
   fs.readFile("docs/apiDocs.json", (err, data) => {
     if(err){
        res.status(400).json({
@@ -55,6 +55,7 @@ app.use(function(err, req, res, next) {
   }
 });
 
+// access control allow origin
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
     console.log(`This API is listening on port: ${port}`);
