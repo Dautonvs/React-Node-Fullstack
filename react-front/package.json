@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "core-util-is": "^1.0.2",
+    "loader": "^2.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.1"
+    "react-loader": "^2.4.5",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.0.1",
+    "react-testing-library": "^8.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,7 +1,9 @@
 import React, {Component} from "react";
 import {signup} from '../auth';
+import {Link} from 'react-router-dom';
 
 class Signup extends Component {
+
   constructor() {
     super();
     this.state = {
@@ -39,7 +41,7 @@ class Signup extends Component {
     });
   };
 
-signupForm = (name, email, password) => (
+  signupForm = (name, email, password) => (
   <form>
     <div className="form-group">
       <label className="text-muted">Name</label>
@@ -48,6 +50,7 @@ signupForm = (name, email, password) => (
              value={name}
       />
     </div>
+
     <div className="form-group">
       <label className="text-muted">Email</label>
       <input onChange={this.handleChange("email")}
@@ -63,6 +66,7 @@ signupForm = (name, email, password) => (
              value={password}
       />
     </div>
+
     <button onClick={this.clickSubmit}
             className="btn btn-raised btn-primary">
             Submit
@@ -70,7 +74,7 @@ signupForm = (name, email, password) => (
   </form>
 );
 
-render(){
+  render(){
     const {name, email, password, error, open} = this.state;
     return (
       <div className="container">
@@ -86,13 +90,15 @@ render(){
         <div className="alert alert-info"
              style={{display: open ? "" : "none"}}
         >
-          New account is successfully created. Please login!
+          New account is successfully created. Please
+          <Link to="/signin"> sign in </Link>!
         </div>
 
         {this.signupForm(name, email, password)}
       </div>
     );
   }
+
 }
 
 
