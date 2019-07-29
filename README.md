@@ -1,11 +1,10 @@
-# React-Node-Fullstack
+# React-Node-Fullstack (Developing)
 
-## Fullstack Social Network (Developing)
+## Fullstack Social Network 
 
-### Desenvolvimento de um Social Network com Node, Express, MongoDB e FrontEnd com React
+### Desenvolvimento de uma Rede Social com Node, Express, MongoDB e FrontEnd com React
 
-#### Tecnologias utilizadas no desenvolvimento (até o momento)
-
+#### Packages utilizados no desenvolvimento (até o momento)
 
 * nodemon
 * express
@@ -14,6 +13,18 @@
 * dotenv
 * mongoose
 * body-parser
+* cookie-parser
+* express-jwt
+* express-validator
+* cors
+* formidable
+* jsonwebtoken
+* lodash
+* uuid
+* react
+* react-dom
+* react-router-dom
+* react-scripts
 
 * Database - MongoDB.Atlas
 * Testes - Postman
