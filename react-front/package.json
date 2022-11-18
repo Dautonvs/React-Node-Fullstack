@@ -9,7 +9,7 @@
     "react-dom": "^16.8.6",
     "react-loader": "^2.4.5",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-testing-library": "^8.0.1"
   },
   "scripts": {
